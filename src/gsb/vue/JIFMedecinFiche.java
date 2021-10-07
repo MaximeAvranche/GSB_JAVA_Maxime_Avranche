@@ -1,25 +1,30 @@
 /*
- * Créé le 22 févr. 2015
+ * Créé le 2 mars 2015
  *
  * TODO Pour changer le modèle de ce fichier généré, allez à :
  * Fenêtre - Préférences - Java - Style de code - Modèles de code
  */
-package gsb.tests;
+package gsb.vue;
 
-import gsb.vue.MenuPrincipal;
+
+
+import gsb.modele.Medecin;
 
 /**
  * @author Isabelle
- * 22 févr. 2015
+ * 2 mars 2015
  * TODO Pour changer le modèle de ce commentaire de type généré, allez à :
  * Fenêtre - Préférences - Java - Style de code - Modèles de code
  */
-public class Application {
+public class JIFMedecinFiche extends JIFMedecin {
 
-	public static void main(String[] args) {
-		MenuPrincipal application;
-		application = new MenuPrincipal();// TODO Raccord de méthode auto-généré
+	private static final long serialVersionUID = 1L;
+
+	public JIFMedecinFiche(Medecin unMedecin) {
+		super();
+		this.remplirText(unMedecin);
 
 	}
+	
 
 }
